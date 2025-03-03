@@ -1,3 +1,4 @@
 {
-    "apiBaseUrl": "https://api.seobot.ai/articles"
+    "apiBaseUrl": "https://app.seobotai.com/api/v1/articles",
+    "apiKey": "2b025983-a42f-4566-b6dc-6306a298dd26"
 }
