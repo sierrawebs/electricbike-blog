@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.json())
             .then(config => {
                 const apiBaseUrl = config.apiBaseUrl;
-                const apiKey = config.apiKey;
+                const apiKey = process.env.API_KEY; // Read API key from environment variable
 
                 fetch(apiBaseUrl, {
                     headers: {
